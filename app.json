@@ -1,0 +1,6 @@
+{
+  "name": "HookSwitch",
+  "description": "Forward requests for webhooks to multiple URLs simultaneously",
+  "repository": "https://github.com/EvandroZanatta/HookSwitch",
+  "image": "heroku/nodejs"
+}
