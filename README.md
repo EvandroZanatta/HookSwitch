@@ -4,6 +4,10 @@ Forward requests for webhooks to multiple URLs simultaneously.
 
 Available in [https://github.com/EvandroZanatta/HookSwitch](https://github.com/EvandroZanatta/HookSwitch).
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/EvandroZanatta/HookSwitch)
+
+Demo https://hookswitch.herokuapp.com/
+
 ## How to use
 
 Make a copy of the repository on your computer (for testing) or to the server (for production).
