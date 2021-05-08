@@ -1,8 +1,8 @@
 # HookSwitch
 
-Forward requests for webhooks to multiple URLs simultaneously
+Forward requests for webhooks to multiple URLs simultaneously.
 
-Available in [https://github.com/EvandroZanatta/HookSwitch](https://github.com/EvandroZanatta/HookSwitch)
+Available in [https://github.com/EvandroZanatta/HookSwitch](https://github.com/EvandroZanatta/HookSwitch).
 
 ## How to use
 
