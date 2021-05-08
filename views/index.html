@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HookSwitch</title>
+</head>
+<body>
+    <h1>HookSwitch</h1>
+    <p>Forward requests for webhooks to multiple URLs simultaneously</p>
+    <p>Available in <a href="https://github.com/EvandroZanatta/HookSwitch">https://github.com/EvandroZanatta/HookSwitch</a></p>
+    <h2>How to use</h2>
+    <p>Make a copy of the repository on your computer (for testing) or to the server (for production).</p>
+    <p><code>git clone git@github.com:EvandroZanatta/HookSwitch.git</code></p>
+    <p>And then start the installation</p>
+    <p><code>npm install</code></p>
+    <p>To run the project, just start the <i>index.js</i> file.</p>
+    <p><code>node index.js</code></p>
+    <p><i>To run in a production environment, I recommend using PM2 (<a href="https://pm2.keymetrics.io/">https://pm2.keymetrics.io/</a>)</i></p>
+    <h2>How it works</h2>
+    <img src="example1.jpg" style="border: 1px solid #ccc;">
+    <p>Configure your webhook requests to be directed to the server where the HookSwitch is hosted.</p>
+    <p>In the webhook url, add the "urls" parameter and define which urls webhook requests should be sent to, separating each URL with a comma.</p>
+    <p>Example <code>https://domain.com/switch/?urls=url1,url2</code></p>
+    <h2>Comments</h2>
+    <p>The content of the POST request is replicated to the new urls with exactly the same content as the "body" and "type" of request.</p>
+    <p>In the originating service of the webhook, the url for the server where HookSwitch is installed must be configured.</p>
+</body>
+</html>

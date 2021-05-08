@@ -3,11 +3,9 @@ const app = express()
 const port = 3000
 var request = require("request");
 
-app.use(express.urlencoded({ extended: true }))
+app.use(express.static('views'));
 
-app.get('/', (req, res) => {
-    res.send('Hello World!')
-});
+app.use(express.urlencoded({ extended: true }))
 
 app.post('/switch', (req, res) => {
     if(req.query.urls){
